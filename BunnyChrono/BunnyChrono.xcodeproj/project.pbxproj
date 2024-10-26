@@ -39,7 +39,7 @@
 		FFC9CA0E2CCCF06B00DEA25E /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9B22CCCF06B00DEA25E /* IQKeyboardManagerConstants.swift */; };
 		FFC9CA0F2CCCF06B00DEA25E /* IQUITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9D92CCCF06B00DEA25E /* IQUITableView+Additions.swift */; };
 		FFC9CA102CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9C82CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbar.swift */; };
-		FFC9CA112CCCF06B00DEA25E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9F62CCCF06B00DEA25E /* Toast.swift */; };
+		FFC9CA112CCCF06B00DEA25E /* BunnyToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9F62CCCF06B00DEA25E /* BunnyToast.swift */; };
 		FFC9CA122CCCF06B00DEA25E /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9C52CCCF06B00DEA25E /* IQPreviousNextView.swift */; };
 		FFC9CA132CCCF06B00DEA25E /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9B72CCCF06B00DEA25E /* IQKeyboardManager+Internal.swift */; };
 		FFC9CA142CCCF06B00DEA25E /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9DB2CCCF06B00DEA25E /* IQUIView+Hierarchy.swift */; };
@@ -63,7 +63,7 @@
 		FFC9CA262CCCF06B00DEA25E /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9DA2CCCF06B00DEA25E /* IQUITextFieldView+Additions.swift */; };
 		FFC9CA272CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9C92CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbarDeprecated.swift */; };
 		FFC9CA282CCCF06B00DEA25E /* IQKeyboardManager+ToolbarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9BA2CCCF06B00DEA25E /* IQKeyboardManager+ToolbarActions.swift */; };
-		FFC9CA292CCCF06B00DEA25E /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A52CCCF06B00DEA25E /* AboutVC.swift */; };
+		FFC9CA292CCCF06B00DEA25E /* BunnyAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A52CCCF06B00DEA25E /* BunnyAboutVC.swift */; };
 		FFC9CA2A2CCCF06B00DEA25E /* IQTextFieldViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9CC2CCCF06B00DEA25E /* IQTextFieldViewInfo.swift */; };
 		FFC9CA2B2CCCF06B00DEA25E /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9D12CCCF06B00DEA25E /* IQKeyboardReturnKeyHandler.swift */; };
 		FFC9CA2C2CCCF06B00DEA25E /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9B92CCCF06B00DEA25E /* IQKeyboardManager+Toolbar.swift */; };
@@ -80,13 +80,16 @@
 		FFC9CA372CCCF06B00DEA25E /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9F72CCCF06B00DEA25E /* WelcomeVC.swift */; };
 		FFC9CA382CCCF06B00DEA25E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9C62CCCF06B00DEA25E /* IQTitleBarButtonItem.swift */; };
 		FFC9CA392CCCF06B00DEA25E /* IQRootControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9AD2CCCF06B00DEA25E /* IQRootControllerConfiguration.swift */; };
-		FFC9CA3A2CCCF06B00DEA25E /* CalculateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A82CCCF06B00DEA25E /* CalculateVC.swift */; };
-		FFC9CA3B2CCCF06B00DEA25E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A92CCCF06B00DEA25E /* HomeVC.swift */; };
+		FFC9CA3A2CCCF06B00DEA25E /* BunnyCalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A82CCCF06B00DEA25E /* BunnyCalculateViewController.swift */; };
+		FFC9CA3B2CCCF06B00DEA25E /* BunnyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9A92CCCF06B00DEA25E /* BunnyHomeViewController.swift */; };
 		FFC9CA3C2CCCF06B00DEA25E /* IQToolbarPlaceholderConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9B02CCCF06B00DEA25E /* IQToolbarPlaceholderConfiguration.swift */; };
 		FFC9CA3D2CCCF06B00DEA25E /* KFDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9E12CCCF06B00DEA25E /* KFDesignable.swift */; };
 		FFC9CA3E2CCCF06B00DEA25E /* IQScrollViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9AE2CCCF06B00DEA25E /* IQScrollViewConfiguration.swift */; };
 		FFC9CA402CCCF0BB00DEA25E /* BunnyChronoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC9CA3F2CCCF0BB00DEA25E /* BunnyChronoNavigationController.swift */; };
 		FFC9CA442CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9CA432CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.m */; };
+		FFCAB8102CCD1DE6002D76D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCAB80F2CCD1DE6002D76D1 /* GoogleService-Info.plist */; };
+		FFCAB8152CCD1E5F002D76D1 /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAB8142CCD1E5F002D76D1 /* UIViewController+Extentsion.m */; };
+		FFCAB8162CCD1E5F002D76D1 /* DragonMuseReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAB8122CCD1E5F002D76D1 /* DragonMuseReachManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,11 +104,11 @@
 		FFC9C9992CCCEF0E00DEA25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFC9C99B2CCCEF0E00DEA25E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FFC9C99C2CCCEF0E00DEA25E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FFC9C9A52CCCF06B00DEA25E /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		FFC9C9A52CCCF06B00DEA25E /* BunnyAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyAboutVC.swift; sourceTree = "<group>"; };
 		FFC9C9A62CCCF06B00DEA25E /* AnimalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
 		FFC9C9A72CCCF06B00DEA25E /* AnimalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalCell.xib; sourceTree = "<group>"; };
-		FFC9C9A82CCCF06B00DEA25E /* CalculateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateVC.swift; sourceTree = "<group>"; };
-		FFC9C9A92CCCF06B00DEA25E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FFC9C9A82CCCF06B00DEA25E /* BunnyCalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyCalculateViewController.swift; sourceTree = "<group>"; };
+		FFC9C9A92CCCF06B00DEA25E /* BunnyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyHomeViewController.swift; sourceTree = "<group>"; };
 		FFC9C9AA2CCCF06B00DEA25E /* IQActiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQActiveConfiguration.swift; sourceTree = "<group>"; };
 		FFC9C9AB2CCCF06B00DEA25E /* IQBarButtonItemConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQBarButtonItemConfiguration.swift; sourceTree = "<group>"; };
 		FFC9C9AC2CCCF06B00DEA25E /* IQKeyboardConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardConfiguration.swift; sourceTree = "<group>"; };
@@ -170,12 +173,18 @@
 		FFC9C9F22CCCF06B00DEA25E /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		FFC9C9F32CCCF06B00DEA25E /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		FFC9C9F42CCCF06B00DEA25E /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
-		FFC9C9F62CCCF06B00DEA25E /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		FFC9C9F62CCCF06B00DEA25E /* BunnyToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyToast.swift; sourceTree = "<group>"; };
 		FFC9C9F72CCCF06B00DEA25E /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		FFC9CA3F2CCCF0BB00DEA25E /* BunnyChronoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyChronoNavigationController.swift; sourceTree = "<group>"; };
 		FFC9CA412CCCF0FD00DEA25E /* BunnyChrono-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BunnyChrono-Bridging-Header.h"; sourceTree = "<group>"; };
 		FFC9CA422CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BunnyChronoPriPolicyController.h; sourceTree = "<group>"; };
 		FFC9CA432CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BunnyChronoPriPolicyController.m; sourceTree = "<group>"; };
+		FFCAB80F2CCD1DE6002D76D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFCAB8112CCD1E5F002D76D1 /* DragonMuseReachManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragonMuseReachManager.h; sourceTree = "<group>"; };
+		FFCAB8122CCD1E5F002D76D1 /* DragonMuseReachManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragonMuseReachManager.m; sourceTree = "<group>"; };
+		FFCAB8132CCD1E5F002D76D1 /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
+		FFCAB8142CCD1E5F002D76D1 /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
+		FFCAB8172CCD1E7D002D76D1 /* BunnyChrono.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BunnyChrono.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +237,12 @@
 		FFC9C99D2CCCEF0E00DEA25E /* BunnyChrono */ = {
 			isa = PBXGroup;
 			children = (
+				FFCAB8172CCD1E7D002D76D1 /* BunnyChrono.entitlements */,
+				FFCAB8112CCD1E5F002D76D1 /* DragonMuseReachManager.h */,
+				FFCAB8122CCD1E5F002D76D1 /* DragonMuseReachManager.m */,
+				FFCAB8132CCD1E5F002D76D1 /* UIViewController+Extentsion.h */,
+				FFCAB8142CCD1E5F002D76D1 /* UIViewController+Extentsion.m */,
+				FFCAB80F2CCD1DE6002D76D1 /* GoogleService-Info.plist */,
 				FFC9C9942CCCEF0E00DEA25E /* AppDelegate.swift */,
 				FFC9C99B2CCCEF0E00DEA25E /* SceneDelegate.swift */,
 				FFC9C9952CCCEF0E00DEA25E /* Assets.xcassets */,
@@ -239,15 +254,15 @@
 				FFC9CA432CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.m */,
 				FFC9CA3F2CCCF0BB00DEA25E /* BunnyChronoNavigationController.swift */,
 				FFC9C99C2CCCEF0E00DEA25E /* ViewController.swift */,
-				FFC9C9A52CCCF06B00DEA25E /* AboutVC.swift */,
+				FFC9C9A52CCCF06B00DEA25E /* BunnyAboutVC.swift */,
 				FFC9C9A62CCCF06B00DEA25E /* AnimalCell.swift */,
 				FFC9C9A72CCCF06B00DEA25E /* AnimalCell.xib */,
-				FFC9C9A82CCCF06B00DEA25E /* CalculateVC.swift */,
-				FFC9C9A92CCCF06B00DEA25E /* HomeVC.swift */,
+				FFC9C9A82CCCF06B00DEA25E /* BunnyCalculateViewController.swift */,
+				FFC9C9A92CCCF06B00DEA25E /* BunnyHomeViewController.swift */,
 				FFC9C9E02CCCF06B00DEA25E /* IQKeyboardManagerSwift */,
 				FFC9C9E12CCCF06B00DEA25E /* KFDesignable.swift */,
 				FFC9C9F52CCCF06B00DEA25E /* Poppins */,
-				FFC9C9F62CCCF06B00DEA25E /* Toast.swift */,
+				FFC9C9F62CCCF06B00DEA25E /* BunnyToast.swift */,
 				FFC9CA412CCCF0FD00DEA25E /* BunnyChrono-Bridging-Header.h */,
 			);
 			path = BunnyChrono;
@@ -421,6 +436,8 @@
 				FFC9C9782CCCEEEE00DEA25E /* Sources */,
 				FFC9C9792CCCEEEE00DEA25E /* Frameworks */,
 				FFC9C97A2CCCEEEE00DEA25E /* Resources */,
+				490EF2AFDC6B609265168FE6 /* [CP] Embed Pods Frameworks */,
+				CA7F8763CD9E1D617B1C7D6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -472,6 +489,7 @@
 			files = (
 				FFC9C9F82CCCF06B00DEA25E /* PrivacyInfo.xcprivacy in Resources */,
 				FFC9C9F92CCCF06B00DEA25E /* Poppins-BlackItalic.ttf in Resources */,
+				FFCAB8102CCD1DE6002D76D1 /* GoogleService-Info.plist in Resources */,
 				FFC9C9FA2CCCF06B00DEA25E /* AnimalCell.xib in Resources */,
 				FFC9C9FB2CCCF06B00DEA25E /* Poppins-ExtraLight.ttf in Resources */,
 				FFC9C9FC2CCCF06B00DEA25E /* Poppins-ExtraBold.ttf in Resources */,
@@ -500,6 +518,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		490EF2AFDC6B609265168FE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6AB96258D73C4C59E2EEDAB6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,6 +557,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CA7F8763CD9E1D617B1C7D6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BunnyChrono/Pods-BunnyChrono-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -534,7 +586,7 @@
 				FFC9CA0F2CCCF06B00DEA25E /* IQUITableView+Additions.swift in Sources */,
 				FFC9CA402CCCF0BB00DEA25E /* BunnyChronoNavigationController.swift in Sources */,
 				FFC9CA102CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbar.swift in Sources */,
-				FFC9CA112CCCF06B00DEA25E /* Toast.swift in Sources */,
+				FFC9CA112CCCF06B00DEA25E /* BunnyToast.swift in Sources */,
 				FFC9CA122CCCF06B00DEA25E /* IQPreviousNextView.swift in Sources */,
 				FFC9CA132CCCF06B00DEA25E /* IQKeyboardManager+Internal.swift in Sources */,
 				FFC9CA142CCCF06B00DEA25E /* IQUIView+Hierarchy.swift in Sources */,
@@ -544,6 +596,8 @@
 				FFC9CA182CCCF06B00DEA25E /* IQUICollectionView+Additions.swift in Sources */,
 				FFC9CA192CCCF06B00DEA25E /* IQKeyboardManager.swift in Sources */,
 				FFC9CA1A2CCCF06B00DEA25E /* IQUIScrollView+Additions.swift in Sources */,
+				FFCAB8152CCD1E5F002D76D1 /* UIViewController+Extentsion.m in Sources */,
+				FFCAB8162CCD1E5F002D76D1 /* DragonMuseReachManager.m in Sources */,
 				FFC9CA1B2CCCF06B00DEA25E /* IQKeyboardListener.swift in Sources */,
 				FFC9CA1C2CCCF06B00DEA25E /* IQKeyboardManager+Position.swift in Sources */,
 				FFC9CA1D2CCCF06B00DEA25E /* IQNSArray+Sort.swift in Sources */,
@@ -558,7 +612,7 @@
 				FFC9CA262CCCF06B00DEA25E /* IQUITextFieldView+Additions.swift in Sources */,
 				FFC9CA272CCCF06B00DEA25E /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */,
 				FFC9CA282CCCF06B00DEA25E /* IQKeyboardManager+ToolbarActions.swift in Sources */,
-				FFC9CA292CCCF06B00DEA25E /* AboutVC.swift in Sources */,
+				FFC9CA292CCCF06B00DEA25E /* BunnyAboutVC.swift in Sources */,
 				FFC9CA2A2CCCF06B00DEA25E /* IQTextFieldViewInfo.swift in Sources */,
 				FFC9CA2B2CCCF06B00DEA25E /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				FFC9CA2C2CCCF06B00DEA25E /* IQKeyboardManager+Toolbar.swift in Sources */,
@@ -575,8 +629,8 @@
 				FFC9CA372CCCF06B00DEA25E /* WelcomeVC.swift in Sources */,
 				FFC9CA382CCCF06B00DEA25E /* IQTitleBarButtonItem.swift in Sources */,
 				FFC9CA392CCCF06B00DEA25E /* IQRootControllerConfiguration.swift in Sources */,
-				FFC9CA3A2CCCF06B00DEA25E /* CalculateVC.swift in Sources */,
-				FFC9CA3B2CCCF06B00DEA25E /* HomeVC.swift in Sources */,
+				FFC9CA3A2CCCF06B00DEA25E /* BunnyCalculateViewController.swift in Sources */,
+				FFC9CA3B2CCCF06B00DEA25E /* BunnyHomeViewController.swift in Sources */,
 				FFC9CA3C2CCCF06B00DEA25E /* IQToolbarPlaceholderConfiguration.swift in Sources */,
 				FFC9CA442CCCF0FD00DEA25E /* BunnyChronoPriPolicyController.m in Sources */,
 				FFC9CA3D2CCCF06B00DEA25E /* KFDesignable.swift in Sources */,
@@ -616,12 +670,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BunnyChrono/BunnyChrono.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BunnyChrono/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BunnyChrono: Animal Age Converter";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BunnyChrono needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BunnyChrono needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BunnyChrono needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "BunnyChrono needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -633,7 +692,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BunnyChrono;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tool.BunnyChrono;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -652,12 +711,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BunnyChrono/BunnyChrono.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BunnyChrono/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BunnyChrono: Animal Age Converter";
+				INFOPLIST_KEY_NSCameraUsageDescription = "BunnyChrono needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "BunnyChrono needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "BunnyChrono needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "BunnyChrono needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -669,7 +733,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BunnyChrono;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tool.BunnyChrono;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

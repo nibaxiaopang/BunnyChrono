@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class AboutVC: UIViewController {
+class BunnyAboutVC: UIViewController {
     
     @IBOutlet weak var txtAbout: UITextView!
     

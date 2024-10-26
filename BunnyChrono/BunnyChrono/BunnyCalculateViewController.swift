@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class CalculateVC: UIViewController {
+class BunnyCalculateViewController: UIViewController {
     
     @IBOutlet weak var btnShare: UIButton!
     @IBOutlet weak var btnAudio: UIButton!

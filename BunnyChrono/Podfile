@@ -6,5 +6,6 @@ target 'BunnyChrono' do
   use_frameworks!
 
   # Pods for BunnyChrono
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class BunnyHomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
    
 
     @IBOutlet weak var collViewHome: UICollectionView!
@@ -51,7 +51,7 @@ class HomeVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CalculateVC") as! CalculateVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "CalculateVC") as! BunnyCalculateViewController
         vc.animalName = arrAnimalName[indexPath.row]
         if indexPath.row == 0{
             vc.isFromAnimal = "Elephant"

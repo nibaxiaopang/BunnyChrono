@@ -19,10 +19,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--HomeVC-->
+        <!--Bunny Home View Controller-->
         <scene sceneID="f22-m1-0p8">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="dMe-IL-Tcd" customClass="HomeVC" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="dMe-IL-Tcd" customClass="BunnyHomeViewController" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LmY-Jc-I9K">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,10 +113,10 @@
             </objects>
             <point key="canvasLocation" x="-44" y="-13"/>
         </scene>
-        <!--AboutVC-->
+        <!--Bunny AboutVC-->
         <scene sceneID="axi-t6-uGI">
             <objects>
-                <viewController storyboardIdentifier="AboutVC" id="sJc-0F-shS" customClass="AboutVC" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutVC" id="sJc-0F-shS" customClass="BunnyAboutVC" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8lV-bl-55Z">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,14 +143,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Of Animal Life" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLk-KW-anJ">
-                                <rect key="frame" x="65" y="69" width="318" height="31"/>
+                                <rect key="frame" x="65" y="69" width="318" height="25.666666666666671"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lf9-cZ-Ncz">
-                                <rect key="frame" x="10" y="62" width="45" height="45"/>
+                                <rect key="frame" x="10" y="59.333333333333343" width="45" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="1gG-3H-ozS"/>
                                     <constraint firstAttribute="height" constant="45" id="RVe-JY-J52"/>
@@ -162,10 +162,10 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBU-no-IgQ">
-                                <rect key="frame" x="10" y="120" width="373" height="548"/>
+                                <rect key="frame" x="10" y="114.66666666666669" width="373" height="553.33333333333326"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a4l-eF-l9w">
-                                        <rect key="frame" x="10" y="10" width="353" height="528"/>
+                                        <rect key="frame" x="10" y="10" width="353" height="533.33333333333337"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -264,7 +264,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" image="bac_main"/>
                                 <connections>
-                                    <action selector="back:" destination="ikx-vM-h4B" eventType="touchUpInside" id="ZnX-bW-yHI"/>
+                                    <action selector="popAction:" destination="ikx-vM-h4B" eventType="touchUpInside" id="DVm-3q-kTK"/>
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="pol-X9-AeA">
@@ -285,6 +285,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kog-Zw-bIJ"/>
+                    <connections>
+                        <outlet property="bottomCos" destination="77a-NG-5k8" id="oMO-7a-YKf"/>
+                        <outlet property="dmBackBtn" destination="bTB-Jn-XcT" id="qkL-9s-3dx"/>
+                        <outlet property="dmIndicatorView" destination="pol-X9-AeA" id="pgP-rN-qpN"/>
+                        <outlet property="dmWebView" destination="ylc-KX-OMx" id="ObU-xq-Yqd"/>
+                        <outlet property="topCos" destination="1pw-It-jsh" id="9EZ-Q3-PBy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzT-fU-CZv" sceneMemberID="firstResponder"/>
             </objects>
@@ -430,6 +437,9 @@
                                     <segue destination="ikx-vM-h4B" kind="push" id="0QT-Ss-Ep1"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-Mm-dLC">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y63-Yj-bvZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -442,6 +452,7 @@
                             <constraint firstItem="Y63-Yj-bvZ" firstAttribute="trailing" secondItem="hwn-Rk-FMP" secondAttribute="trailing" constant="10" id="COC-J7-PbJ"/>
                             <constraint firstItem="tEp-7u-2h0" firstAttribute="leading" secondItem="Y63-Yj-bvZ" secondAttribute="leading" constant="20" id="KV3-FQ-e8u"/>
                             <constraint firstItem="Xng-JG-w6H" firstAttribute="leading" secondItem="Y63-Yj-bvZ" secondAttribute="leading" constant="20" id="RTg-an-08A"/>
+                            <constraint firstItem="IwS-Mm-dLC" firstAttribute="centerY" secondItem="eGk-PN-uZZ" secondAttribute="centerY" id="Ua5-so-krb"/>
                             <constraint firstAttribute="bottom" secondItem="7XQ-uE-F9S" secondAttribute="bottom" id="WSw-WR-mTv"/>
                             <constraint firstItem="7XQ-uE-F9S" firstAttribute="top" secondItem="eGk-PN-uZZ" secondAttribute="top" id="Xog-q8-NGY"/>
                             <constraint firstItem="Y63-Yj-bvZ" firstAttribute="trailing" secondItem="Xng-JG-w6H" secondAttribute="trailing" constant="20" id="a5B-Bw-3UL"/>
@@ -458,18 +469,27 @@
                             <constraint firstItem="Y63-Yj-bvZ" firstAttribute="trailing" secondItem="YKg-0b-6hk" secondAttribute="trailing" constant="20" id="xVh-8l-eWB"/>
                             <constraint firstItem="hwn-Rk-FMP" firstAttribute="top" secondItem="Y63-Yj-bvZ" secondAttribute="top" constant="10" id="xbw-b8-0GP"/>
                             <constraint firstItem="nuX-TX-JWx" firstAttribute="top" secondItem="tEp-7u-2h0" secondAttribute="bottom" constant="10" id="yRT-i8-MBc"/>
+                            <constraint firstItem="IwS-Mm-dLC" firstAttribute="centerX" secondItem="eGk-PN-uZZ" secondAttribute="centerX" id="zKq-58-wNm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ewk-aF-xzg"/>
+                    <connections>
+                        <outlet property="aboutBtn" destination="GxM-qd-YqL" id="HEQ-OH-WY4"/>
+                        <outlet property="atView" destination="IwS-Mm-dLC" id="RLr-pU-Yvj"/>
+                        <outlet property="goBtn" destination="Xng-JG-w6H" id="L2G-Fg-Yzd"/>
+                        <outlet property="ppBtn" destination="nuX-TX-JWx" id="oHw-V6-Goc"/>
+                        <outlet property="rateBtn" destination="tEp-7u-2h0" id="zEa-Cq-xhb"/>
+                        <outlet property="shareBtn" destination="YKg-0b-6hk" id="CN0-rc-YU4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fuq-hI-mip" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="708" y="-13"/>
         </scene>
-        <!--CalculateVC-->
+        <!--Bunny Calculate View Controller-->
         <scene sceneID="NLl-2f-uuy">
             <objects>
-                <viewController storyboardIdentifier="CalculateVC" id="DuG-dd-q8a" customClass="CalculateVC" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalculateVC" id="DuG-dd-q8a" customClass="BunnyCalculateViewController" customModule="BunnyChrono" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ax5-vn-h3R">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

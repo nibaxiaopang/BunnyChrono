@@ -2,7 +2,7 @@
 //  BunnyChronoNavigationController.swift
 //  BunnyChrono
 //
-//  Created by jin fu on 2024/10/26.
+//  Created by BunnyChrono on 2024/10/26.
 //
 
 import UIKit
